@@ -30,7 +30,7 @@ return Application::configure(basePath: dirname(__DIR__))
 
             //
             // ... other middleware
-            // \App\Http\Middleware\DetectDevice::class, // run for all requests
+            \App\Http\Middleware\DetectDevice::class, // run for all requests
             
         ]);
 

@@ -6,6 +6,10 @@ trait NonQueuedMediaConversions
 {
     public function customizeMediaConversions(): void
     {
+
+        // ABRHAM REMEMBER / I WILL DO THIS ASYNCHRONOUSLY USING REDIS
+        //
+
         // \Log::info('Registering media conversions...');
 
         $this->addMediaConversion('optimized')
